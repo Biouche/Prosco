@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_8af25cc81d2844d6962957c3dae05493" kind="dir">
+    <compoundname>src/Prosco</compoundname>
+    <innerdir refid="dir_dd3ca084c7b8df5acf044aecfead7604">src/Prosco/App</innerdir>
+    <innerdir refid="dir_4c48437066182669092ec7a3af92a729">src/Prosco/Class</innerdir>
+    <innerdir refid="dir_e7a2aa4fb5ab29a4861efc0af51adae7">src/Prosco/Controller</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/"/>
+  </compounddef>
+</doxygen>

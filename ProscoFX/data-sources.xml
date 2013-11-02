@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="derby-1383410552397--1103911031" provider="generic" driver="derby" name="Derby - BD1" create-date="1383410552397" update-date="1383411409359" save-password="true" show-system-objects="true" read-only="false">
+		<connection server="" database="/home/biouche/workspace/ProscoFX/ProscoFX/BD/BD1" url="jdbc:derby:/home/biouche/workspace/ProscoFX/ProscoFX/BD/BD1" user="" type="dev">
+			<network-handler type="TUNNEL" id="ssh_tunnel" enabled="false" user="" save-password="false">
+				<property name="port" value="22"/>
+				<property name="host" value=""/>
+				<property name="keyPath" value=""/>
+				<property name="authType" value="PASSWORD"/>
+			</network-handler>
+		</connection>
+	</data-source>
+</data-sources>

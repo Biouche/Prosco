@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_prosco_1_1_app_1_1_app" kind="class" prot="public">
+    <compoundname>Prosco::App::App</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_prosco_1_1_app_1_1_app_1a625c10eb01309fae38fdcc9cfcb1bb73" prot="private" static="yes" mutable="no">
+        <type>ObjectProperty&lt; Stage &gt;</type>
+        <definition>ObjectProperty&lt;Stage&gt; Prosco.App.App.currentStage</definition>
+        <argsstring></argsstring>
+        <name>currentStage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/App/App.java" line="14" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/App/App.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_prosco_1_1_app_1_1_app_1ad017ef8c92c342dcf88a78e3d1a9be96" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ObjectProperty&lt; Stage &gt;</type>
+        <definition>static ObjectProperty&lt;Stage&gt; Prosco.App.App.currentStageProperty</definition>
+        <argsstring>()</argsstring>
+        <name>currentStageProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/App/App.java" line="16" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/App/App.java" bodystart="16" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prosco_1_1_app_1_1_app_1a5acb7d1f45c619f4ff59c966d02fa23c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Stage</type>
+        <definition>static Stage Prosco.App.App.getCurrentStage</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentStage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/App/App.java" line="20" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/App/App.java" bodystart="20" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prosco_1_1_app_1_1_app_1aa3c0f99606025770f5de6cc5a1e4f5c9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Prosco.App.App.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/App/App.java" line="39" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/App/App.java" bodystart="39" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_prosco_1_1_app_1_1_app_1ac7a278030dcc09c4555a02a486053337" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Prosco.App.App.start</definition>
+        <argsstring>(Stage primaryStage)</argsstring>
+        <name>start</name>
+        <param>
+          <type>Stage</type>
+          <declname>primaryStage</declname>
+        </param>
+        <exceptions> throws IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/App/App.java" line="25" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/App/App.java" bodystart="25" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="0">
+        <label>Prosco.App.App</label>
+        <link refid="class_prosco_1_1_app_1_1_app"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Application</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Prosco.App.App</label>
+        <link refid="class_prosco_1_1_app_1_1_app"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>currentStage</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Application</label>
+      </node>
+      <node id="4">
+        <label>ObjectProperty&lt; Stage &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/App/App.java" line="12" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/App/App.java" bodystart="12" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_prosco_1_1_app_1_1_app_1a625c10eb01309fae38fdcc9cfcb1bb73" prot="private" virt="non-virtual"><scope>Prosco::App::App</scope><name>currentStage</name></member>
+      <member refid="class_prosco_1_1_app_1_1_app_1ad017ef8c92c342dcf88a78e3d1a9be96" prot="public" virt="non-virtual"><scope>Prosco::App::App</scope><name>currentStageProperty</name></member>
+      <member refid="class_prosco_1_1_app_1_1_app_1a5acb7d1f45c619f4ff59c966d02fa23c" prot="public" virt="non-virtual"><scope>Prosco::App::App</scope><name>getCurrentStage</name></member>
+      <member refid="class_prosco_1_1_app_1_1_app_1aa3c0f99606025770f5de6cc5a1e4f5c9" prot="public" virt="non-virtual"><scope>Prosco::App::App</scope><name>main</name></member>
+      <member refid="class_prosco_1_1_app_1_1_app_1ac7a278030dcc09c4555a02a486053337" prot="public" virt="non-virtual"><scope>Prosco::App::App</scope><name>start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

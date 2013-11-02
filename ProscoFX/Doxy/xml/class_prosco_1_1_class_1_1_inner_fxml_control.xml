@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_prosco_1_1_class_1_1_inner_fxml_control" kind="class" prot="public">
+    <compoundname>Prosco::Class::InnerFxmlControl</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AnchorPane</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_prosco_1_1_class_1_1_inner_fxml_control_1ac257154f5af4e06ddc41eaa38444a3ab" prot="public" static="no" mutable="no">
+        <type>TextField</type>
+        <definition>TextField Prosco.Class.InnerFxmlControl.textFieldNomEcole</definition>
+        <argsstring></argsstring>
+        <name>textFieldNomEcole</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/InnerFxmlControl.java" line="13" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/InnerFxmlControl.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prosco_1_1_class_1_1_inner_fxml_control_1ac37709bc3f9f17a4570df610cd7af6d9" prot="public" static="no" mutable="no">
+        <type>TextField</type>
+        <definition>TextField Prosco.Class.InnerFxmlControl.textFieldNumEcole</definition>
+        <argsstring></argsstring>
+        <name>textFieldNumEcole</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/InnerFxmlControl.java" line="15" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/InnerFxmlControl.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_prosco_1_1_class_1_1_inner_fxml_control_1a4e63be96dade1c1b4d5c2d377c8c671d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Prosco.Class.InnerFxmlControl.InnerFxmlControl</definition>
+        <argsstring>()</argsstring>
+        <name>InnerFxmlControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/InnerFxmlControl.java" line="17" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/InnerFxmlControl.java" bodystart="17" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="29">
+        <label>AnchorPane</label>
+      </node>
+      <node id="28">
+        <label>Prosco.Class.InnerFxmlControl</label>
+        <link refid="class_prosco_1_1_class_1_1_inner_fxml_control"/>
+        <childnode refid="29" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="32">
+        <label>TextField</label>
+      </node>
+      <node id="31">
+        <label>AnchorPane</label>
+      </node>
+      <node id="30">
+        <label>Prosco.Class.InnerFxmlControl</label>
+        <link refid="class_prosco_1_1_class_1_1_inner_fxml_control"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+        <childnode refid="32" relation="usage">
+          <edgelabel>textFieldNumEcole</edgelabel>
+          <edgelabel>textFieldNomEcole</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/InnerFxmlControl.java" line="10" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/InnerFxmlControl.java" bodystart="10" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_prosco_1_1_class_1_1_inner_fxml_control_1a4e63be96dade1c1b4d5c2d377c8c671d" prot="public" virt="non-virtual"><scope>Prosco::Class::InnerFxmlControl</scope><name>InnerFxmlControl</name></member>
+      <member refid="class_prosco_1_1_class_1_1_inner_fxml_control_1ac257154f5af4e06ddc41eaa38444a3ab" prot="public" virt="non-virtual"><scope>Prosco::Class::InnerFxmlControl</scope><name>textFieldNomEcole</name></member>
+      <member refid="class_prosco_1_1_class_1_1_inner_fxml_control_1ac37709bc3f9f17a4570df610cd7af6d9" prot="public" virt="non-virtual"><scope>Prosco::Class::InnerFxmlControl</scope><name>textFieldNumEcole</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

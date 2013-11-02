@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_e7a2aa4fb5ab29a4861efc0af51adae7" kind="dir">
+    <compoundname>src/Prosco/Controller</compoundname>
+    <innerfile refid="_event_controller_start_view_8java">EventControllerStartView.java</innerfile>
+    <innerfile refid="_event_controller_view_info_ecole_8java">EventControllerViewInfoEcole.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Controller/"/>
+  </compounddef>
+</doxygen>

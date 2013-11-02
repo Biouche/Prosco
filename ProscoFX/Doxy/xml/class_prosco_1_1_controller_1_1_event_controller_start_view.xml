@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_prosco_1_1_controller_1_1_event_controller_start_view" kind="class" prot="public">
+    <compoundname>Prosco::Controller::EventControllerStartView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AnchorPane</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Initializable</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_prosco_1_1_controller_1_1_event_controller_start_view_1a09dbfa302461698bb8489c574860f99f" prot="public" static="no" mutable="no">
+        <type>AutoCompleteTextField&lt; String &gt;</type>
+        <definition>AutoCompleteTextField&lt;String&gt; Prosco.Controller.EventControllerStartView.AutoCompleteField</definition>
+        <argsstring></argsstring>
+        <name>AutoCompleteField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Controller/EventControllerStartView.java" line="46" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Controller/EventControllerStartView.java" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_prosco_1_1_controller_1_1_event_controller_start_view_1a8d3cee31f90605c5516409651f18d3d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Prosco.Controller.EventControllerStartView.EventControllerStartView</definition>
+        <argsstring>()</argsstring>
+        <name>EventControllerStartView</name>
+        <exceptions> throws IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Controller/EventControllerStartView.java" line="25" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Controller/EventControllerStartView.java" bodystart="25" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prosco_1_1_controller_1_1_event_controller_start_view_1ae0902afc9a2de5053fa348741ee942ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Prosco.Controller.EventControllerStartView.chargerVue</definition>
+        <argsstring>()</argsstring>
+        <name>chargerVue</name>
+        <exceptions> throws IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Controller/EventControllerStartView.java" line="29" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Controller/EventControllerStartView.java" bodystart="29" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prosco_1_1_controller_1_1_event_controller_start_view_1aa8abb906535c54da6792eddd453d4296" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Prosco.Controller.EventControllerStartView.getTxtRechercheEcole</definition>
+        <argsstring>(ActionEvent event)</argsstring>
+        <name>getTxtRechercheEcole</name>
+        <param>
+          <type>ActionEvent</type>
+          <declname>event</declname>
+        </param>
+        <exceptions> throws IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Controller/EventControllerStartView.java" line="49" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Controller/EventControllerStartView.java" bodystart="49" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prosco_1_1_controller_1_1_event_controller_start_view_1ac8d58197fce39c723c362f6cbea19d40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Prosco.Controller.EventControllerStartView.initialize</definition>
+        <argsstring>(URL location, ResourceBundle resources)</argsstring>
+        <name>initialize</name>
+        <param>
+          <type>URL</type>
+          <declname>location</declname>
+        </param>
+        <param>
+          <type>ResourceBundle</type>
+          <declname>resources</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Controller/EventControllerStartView.java" line="64" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Controller/EventControllerStartView.java" bodystart="64" bodyend="95"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="13">
+        <label>Prosco.Controller.EventControllerStartView</label>
+        <link refid="class_prosco_1_1_controller_1_1_event_controller_start_view"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>AnchorPane</label>
+      </node>
+      <node id="15">
+        <label>Initializable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="19">
+        <label>AutoCompleteTextField&lt; String &gt;</label>
+      </node>
+      <node id="16">
+        <label>Prosco.Controller.EventControllerStartView</label>
+        <link refid="class_prosco_1_1_controller_1_1_event_controller_start_view"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+        <childnode refid="19" relation="usage">
+          <edgelabel>AutoCompleteField</edgelabel>
+        </childnode>
+      </node>
+      <node id="17">
+        <label>AnchorPane</label>
+      </node>
+      <node id="18">
+        <label>Initializable</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Controller/EventControllerStartView.java" line="23" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Controller/EventControllerStartView.java" bodystart="22" bodyend="97"/>
+    <listofallmembers>
+      <member refid="class_prosco_1_1_controller_1_1_event_controller_start_view_1a09dbfa302461698bb8489c574860f99f" prot="public" virt="non-virtual"><scope>Prosco::Controller::EventControllerStartView</scope><name>AutoCompleteField</name></member>
+      <member refid="class_prosco_1_1_controller_1_1_event_controller_start_view_1ae0902afc9a2de5053fa348741ee942ae" prot="public" virt="non-virtual"><scope>Prosco::Controller::EventControllerStartView</scope><name>chargerVue</name></member>
+      <member refid="class_prosco_1_1_controller_1_1_event_controller_start_view_1a8d3cee31f90605c5516409651f18d3d3" prot="public" virt="non-virtual"><scope>Prosco::Controller::EventControllerStartView</scope><name>EventControllerStartView</name></member>
+      <member refid="class_prosco_1_1_controller_1_1_event_controller_start_view_1aa8abb906535c54da6792eddd453d4296" prot="public" virt="non-virtual"><scope>Prosco::Controller::EventControllerStartView</scope><name>getTxtRechercheEcole</name></member>
+      <member refid="class_prosco_1_1_controller_1_1_event_controller_start_view_1ac8d58197fce39c723c362f6cbea19d40" prot="public" virt="non-virtual"><scope>Prosco::Controller::EventControllerStartView</scope><name>initialize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

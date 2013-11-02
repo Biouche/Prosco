@@ -1,0 +1,408 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_prosco_1_1_class_1_1_class_b_d_ecole" kind="class" prot="public">
+    <compoundname>Prosco::Class::ClassBDEcole</compoundname>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_prosco_1_1_class_1_1_class_b_d_ecole_1ad9379415505c67e55a3248a51bb784ef" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Prosco.Class.ClassBDEcole.m_NOMECOLE</definition>
+        <argsstring></argsstring>
+        <name>m_NOMECOLE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" line="13" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prosco_1_1_class_1_1_class_b_d_ecole_1aa9e92633275e2d1fd4c5784c28a1da65" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Prosco.Class.ClassBDEcole.m_idEcole</definition>
+        <argsstring></argsstring>
+        <name>m_idEcole</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" line="15" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prosco_1_1_class_1_1_class_b_d_ecole_1a203a3d9a6d1c3383167ea4b9775512b1" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Prosco.Class.ClassBDEcole.m_adresse1</definition>
+        <argsstring></argsstring>
+        <name>m_adresse1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" line="16" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prosco_1_1_class_1_1_class_b_d_ecole_1a124c953ecf23b6259342209af25e34c1" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Prosco.Class.ClassBDEcole.m_adresse2</definition>
+        <argsstring></argsstring>
+        <name>m_adresse2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" line="17" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prosco_1_1_class_1_1_class_b_d_ecole_1af9055f4f09d2189a228833854505a574" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Prosco.Class.ClassBDEcole.m_codePostal</definition>
+        <argsstring></argsstring>
+        <name>m_codePostal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" line="18" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prosco_1_1_class_1_1_class_b_d_ecole_1a6d2a779b7fd322d2b92bd7eca1c66c24" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Prosco.Class.ClassBDEcole.m_Ville</definition>
+        <argsstring></argsstring>
+        <name>m_Ville</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" line="19" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prosco_1_1_class_1_1_class_b_d_ecole_1a526b5075a812beff211ed35b943764ce" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Prosco.Class.ClassBDEcole.m_nomDirecteur</definition>
+        <argsstring></argsstring>
+        <name>m_nomDirecteur</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" line="20" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prosco_1_1_class_1_1_class_b_d_ecole_1a7d59d9fa28be19f40e067cd448616b9c" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Prosco.Class.ClassBDEcole.m_nomResponsable</definition>
+        <argsstring></argsstring>
+        <name>m_nomResponsable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" line="21" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_prosco_1_1_class_1_1_class_b_d_ecole_1a5b607d51eb6d2fbc49e653f7be26d52f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Prosco.Class.ClassBDEcole.ClassBDEcole</definition>
+        <argsstring>(String NOMECOLE)</argsstring>
+        <name>ClassBDEcole</name>
+        <param>
+          <type>String</type>
+          <declname>NOMECOLE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" line="23" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" bodystart="23" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prosco_1_1_class_1_1_class_b_d_ecole_1aa1aa568ceeda8e6be965918f2f4ee326" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String Prosco.Class.ClassBDEcole.getNomEcole</definition>
+        <argsstring>()</argsstring>
+        <name>getNomEcole</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" line="52" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prosco_1_1_class_1_1_class_b_d_ecole_1ac6bcca29b5dd3986ec40a4dbc615e2aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Prosco.Class.ClassBDEcole.setNomEcole</definition>
+        <argsstring>(String newNomEcole)</argsstring>
+        <name>setNomEcole</name>
+        <param>
+          <type>String</type>
+          <declname>newNomEcole</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" line="56" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" bodystart="56" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prosco_1_1_class_1_1_class_b_d_ecole_1a954f35bb6410dcac712cd71949858126" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Prosco.Class.ClassBDEcole.getIdEcole</definition>
+        <argsstring>()</argsstring>
+        <name>getIdEcole</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" line="60" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" bodystart="60" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prosco_1_1_class_1_1_class_b_d_ecole_1a208dd2174b21706cfcf8528089104b4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String Prosco.Class.ClassBDEcole.getAdresse1</definition>
+        <argsstring>()</argsstring>
+        <name>getAdresse1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" line="64" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" bodystart="64" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prosco_1_1_class_1_1_class_b_d_ecole_1aa9f06c5c6ec93899825335cde0323099" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Prosco.Class.ClassBDEcole.setAdresse1</definition>
+        <argsstring>(String newAdresse)</argsstring>
+        <name>setAdresse1</name>
+        <param>
+          <type>String</type>
+          <declname>newAdresse</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" line="68" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" bodystart="68" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prosco_1_1_class_1_1_class_b_d_ecole_1a8c91466e414ebca4f0603666a13bb189" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String Prosco.Class.ClassBDEcole.getAdresse2</definition>
+        <argsstring>()</argsstring>
+        <name>getAdresse2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" line="72" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" bodystart="72" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prosco_1_1_class_1_1_class_b_d_ecole_1a86ae4c82f7c9eb9185d43b0144b84786" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Prosco.Class.ClassBDEcole.setAdresse2</definition>
+        <argsstring>(String newAdresse)</argsstring>
+        <name>setAdresse2</name>
+        <param>
+          <type>String</type>
+          <declname>newAdresse</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" line="76" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" bodystart="76" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prosco_1_1_class_1_1_class_b_d_ecole_1ac1e324b6078a984c6fe019c18da47393" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Prosco.Class.ClassBDEcole.getCodePostal</definition>
+        <argsstring>()</argsstring>
+        <name>getCodePostal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" line="80" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" bodystart="80" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prosco_1_1_class_1_1_class_b_d_ecole_1aa5d09349160fdea46fe2df83ff0d129e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Prosco.Class.ClassBDEcole.setCodePostal</definition>
+        <argsstring>(int newCodePostal)</argsstring>
+        <name>setCodePostal</name>
+        <param>
+          <type>int</type>
+          <declname>newCodePostal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" line="84" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" bodystart="84" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prosco_1_1_class_1_1_class_b_d_ecole_1ad58a6aaa25efcbc7a18149b20b53ea69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String Prosco.Class.ClassBDEcole.getVille</definition>
+        <argsstring>()</argsstring>
+        <name>getVille</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" line="88" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" bodystart="88" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prosco_1_1_class_1_1_class_b_d_ecole_1a1d7627287937a72d51ee49c59126da9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Prosco.Class.ClassBDEcole.setVille</definition>
+        <argsstring>(String newVille)</argsstring>
+        <name>setVille</name>
+        <param>
+          <type>String</type>
+          <declname>newVille</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" line="91" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" bodystart="91" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prosco_1_1_class_1_1_class_b_d_ecole_1a7b933fb03ad723a192032112a9bdc3cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String Prosco.Class.ClassBDEcole.getNomDirecteur</definition>
+        <argsstring>()</argsstring>
+        <name>getNomDirecteur</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" line="96" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" bodystart="96" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prosco_1_1_class_1_1_class_b_d_ecole_1abda7dcc90b733a5905f0db57da1cb3c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Prosco.Class.ClassBDEcole.setNomDirecteur</definition>
+        <argsstring>(String newNomDirecteur)</argsstring>
+        <name>setNomDirecteur</name>
+        <param>
+          <type>String</type>
+          <declname>newNomDirecteur</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" line="99" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" bodystart="99" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prosco_1_1_class_1_1_class_b_d_ecole_1a6b582d7b1b4835e22bc94a1bf4f9aed9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String Prosco.Class.ClassBDEcole.getNomResponsable</definition>
+        <argsstring>()</argsstring>
+        <name>getNomResponsable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" line="103" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" bodystart="103" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prosco_1_1_class_1_1_class_b_d_ecole_1aad46b44b724b47941a19371caa0846fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Prosco.Class.ClassBDEcole.setNomResponsable</definition>
+        <argsstring>(String newNomResponsable)</argsstring>
+        <name>setNomResponsable</name>
+        <param>
+          <type>String</type>
+          <declname>newNomResponsable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" line="106" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" bodystart="106" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prosco_1_1_class_1_1_class_b_d_ecole_1ab6b7b3c0e692c439fda4fcdf280dedac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Prosco.Class.ClassBDEcole.chargerEcole</definition>
+        <argsstring>(String IDECOLE, Object object)</argsstring>
+        <name>chargerEcole</name>
+        <param>
+          <type>String</type>
+          <declname>IDECOLE</declname>
+        </param>
+        <param>
+          <type>Object</type>
+          <declname>object</declname>
+        </param>
+        <exceptions> throws IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" line="110" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" bodystart="110" bodyend="124"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" line="11" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ClassBDEcole.java" bodystart="11" bodyend="125"/>
+    <listofallmembers>
+      <member refid="class_prosco_1_1_class_1_1_class_b_d_ecole_1ab6b7b3c0e692c439fda4fcdf280dedac" prot="public" virt="non-virtual"><scope>Prosco::Class::ClassBDEcole</scope><name>chargerEcole</name></member>
+      <member refid="class_prosco_1_1_class_1_1_class_b_d_ecole_1a5b607d51eb6d2fbc49e653f7be26d52f" prot="public" virt="non-virtual"><scope>Prosco::Class::ClassBDEcole</scope><name>ClassBDEcole</name></member>
+      <member refid="class_prosco_1_1_class_1_1_class_b_d_ecole_1a208dd2174b21706cfcf8528089104b4c" prot="public" virt="non-virtual"><scope>Prosco::Class::ClassBDEcole</scope><name>getAdresse1</name></member>
+      <member refid="class_prosco_1_1_class_1_1_class_b_d_ecole_1a8c91466e414ebca4f0603666a13bb189" prot="public" virt="non-virtual"><scope>Prosco::Class::ClassBDEcole</scope><name>getAdresse2</name></member>
+      <member refid="class_prosco_1_1_class_1_1_class_b_d_ecole_1ac1e324b6078a984c6fe019c18da47393" prot="public" virt="non-virtual"><scope>Prosco::Class::ClassBDEcole</scope><name>getCodePostal</name></member>
+      <member refid="class_prosco_1_1_class_1_1_class_b_d_ecole_1a954f35bb6410dcac712cd71949858126" prot="public" virt="non-virtual"><scope>Prosco::Class::ClassBDEcole</scope><name>getIdEcole</name></member>
+      <member refid="class_prosco_1_1_class_1_1_class_b_d_ecole_1a7b933fb03ad723a192032112a9bdc3cf" prot="public" virt="non-virtual"><scope>Prosco::Class::ClassBDEcole</scope><name>getNomDirecteur</name></member>
+      <member refid="class_prosco_1_1_class_1_1_class_b_d_ecole_1aa1aa568ceeda8e6be965918f2f4ee326" prot="public" virt="non-virtual"><scope>Prosco::Class::ClassBDEcole</scope><name>getNomEcole</name></member>
+      <member refid="class_prosco_1_1_class_1_1_class_b_d_ecole_1a6b582d7b1b4835e22bc94a1bf4f9aed9" prot="public" virt="non-virtual"><scope>Prosco::Class::ClassBDEcole</scope><name>getNomResponsable</name></member>
+      <member refid="class_prosco_1_1_class_1_1_class_b_d_ecole_1ad58a6aaa25efcbc7a18149b20b53ea69" prot="public" virt="non-virtual"><scope>Prosco::Class::ClassBDEcole</scope><name>getVille</name></member>
+      <member refid="class_prosco_1_1_class_1_1_class_b_d_ecole_1a203a3d9a6d1c3383167ea4b9775512b1" prot="package" virt="non-virtual"><scope>Prosco::Class::ClassBDEcole</scope><name>m_adresse1</name></member>
+      <member refid="class_prosco_1_1_class_1_1_class_b_d_ecole_1a124c953ecf23b6259342209af25e34c1" prot="package" virt="non-virtual"><scope>Prosco::Class::ClassBDEcole</scope><name>m_adresse2</name></member>
+      <member refid="class_prosco_1_1_class_1_1_class_b_d_ecole_1af9055f4f09d2189a228833854505a574" prot="package" virt="non-virtual"><scope>Prosco::Class::ClassBDEcole</scope><name>m_codePostal</name></member>
+      <member refid="class_prosco_1_1_class_1_1_class_b_d_ecole_1aa9e92633275e2d1fd4c5784c28a1da65" prot="package" virt="non-virtual"><scope>Prosco::Class::ClassBDEcole</scope><name>m_idEcole</name></member>
+      <member refid="class_prosco_1_1_class_1_1_class_b_d_ecole_1a526b5075a812beff211ed35b943764ce" prot="package" virt="non-virtual"><scope>Prosco::Class::ClassBDEcole</scope><name>m_nomDirecteur</name></member>
+      <member refid="class_prosco_1_1_class_1_1_class_b_d_ecole_1ad9379415505c67e55a3248a51bb784ef" prot="package" virt="non-virtual"><scope>Prosco::Class::ClassBDEcole</scope><name>m_NOMECOLE</name></member>
+      <member refid="class_prosco_1_1_class_1_1_class_b_d_ecole_1a7d59d9fa28be19f40e067cd448616b9c" prot="package" virt="non-virtual"><scope>Prosco::Class::ClassBDEcole</scope><name>m_nomResponsable</name></member>
+      <member refid="class_prosco_1_1_class_1_1_class_b_d_ecole_1a6d2a779b7fd322d2b92bd7eca1c66c24" prot="package" virt="non-virtual"><scope>Prosco::Class::ClassBDEcole</scope><name>m_Ville</name></member>
+      <member refid="class_prosco_1_1_class_1_1_class_b_d_ecole_1aa9f06c5c6ec93899825335cde0323099" prot="public" virt="non-virtual"><scope>Prosco::Class::ClassBDEcole</scope><name>setAdresse1</name></member>
+      <member refid="class_prosco_1_1_class_1_1_class_b_d_ecole_1a86ae4c82f7c9eb9185d43b0144b84786" prot="public" virt="non-virtual"><scope>Prosco::Class::ClassBDEcole</scope><name>setAdresse2</name></member>
+      <member refid="class_prosco_1_1_class_1_1_class_b_d_ecole_1aa5d09349160fdea46fe2df83ff0d129e" prot="public" virt="non-virtual"><scope>Prosco::Class::ClassBDEcole</scope><name>setCodePostal</name></member>
+      <member refid="class_prosco_1_1_class_1_1_class_b_d_ecole_1abda7dcc90b733a5905f0db57da1cb3c5" prot="public" virt="non-virtual"><scope>Prosco::Class::ClassBDEcole</scope><name>setNomDirecteur</name></member>
+      <member refid="class_prosco_1_1_class_1_1_class_b_d_ecole_1ac6bcca29b5dd3986ec40a4dbc615e2aa" prot="public" virt="non-virtual"><scope>Prosco::Class::ClassBDEcole</scope><name>setNomEcole</name></member>
+      <member refid="class_prosco_1_1_class_1_1_class_b_d_ecole_1aad46b44b724b47941a19371caa0846fa" prot="public" virt="non-virtual"><scope>Prosco::Class::ClassBDEcole</scope><name>setNomResponsable</name></member>
+      <member refid="class_prosco_1_1_class_1_1_class_b_d_ecole_1a1d7627287937a72d51ee49c59126da9e" prot="public" virt="non-virtual"><scope>Prosco::Class::ClassBDEcole</scope><name>setVille</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

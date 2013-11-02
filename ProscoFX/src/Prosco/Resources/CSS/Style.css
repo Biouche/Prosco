@@ -1,0 +1,65 @@
+@CHARSET "ISO-8859-1";
+
+/* Pane Styles */
+.startPane
+{
+	-fx-background-color:rgbrgb(75,102,116);
+	
+}
+
+
+
+/* Buttons Styles */
+.buttonCheck
+{
+	-fx-background-image: url('../Images/check.png');
+	-fx-background-repeat: no-repeat; 
+	-fx-border-width: 0; 
+    -fx-border-style: NONE;
+    -fx-background-color:rgb(149,236,217);
+ 
+}
+
+.buttonPlus
+{
+	-fx-background-image: url('../Images/plus.png');
+	-fx-background-repeat: no-repeat;
+	-fx-background-color:transparent;
+}
+
+.buttonUpdate
+{
+	-fx-background-image: url('../Images/update.png');
+	-fx-background-repeat: no-repeat;
+	-fx-background-color:transparent;
+}
+
+/* Border Styles */
+
+.titleStartPagePane
+{
+	-fx-border-style:solid ;
+	-fx-border-width:5px;
+	-fx-border-color: rgb(0,0 , 0.4682);
+	-fx-border-radius: 0em 0em 2em 2em; 
+	
+}
+
+.borderAjoutEcole
+{
+	-fx-border-style:solid;
+	-fx-background-color: rgb(149,236,217);	
+}
+
+#borderChoixEcole
+{
+	-fx-border-color: rgb(0,0 , 0.4682);
+    -fx-border-style: solid;
+    -fx-border-width: 1.5;
+    -fx-border-insets: -5;
+    
+}
+
+.autofill-text {
+    -fx-skin: "np.com.ngopal.control.AutoFillTextBoxSkin";
+}

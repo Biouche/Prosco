@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_4c48437066182669092ec7a3af92a729" kind="dir">
+    <compoundname>src/Prosco/Class</compoundname>
+    <innerfile refid="_class_b_d_classes_8java">ClassBDClasses.java</innerfile>
+    <innerfile refid="_class_b_d_ecole_8java">ClassBDEcole.java</innerfile>
+    <innerfile refid="_connect_b_d_8java">ConnectBD.java</innerfile>
+    <innerfile refid="_inner_fxml_control_8java">InnerFxmlControl.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/"/>
+  </compounddef>
+</doxygen>

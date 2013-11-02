@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?scenebuilder-background-color 0x4333ffff?>
+<?import com.mytdev.javafx.scene.control.AutoCompleteTextField?>
+
+<AnchorPane id="StartPane" cache="true" prefHeight="898.0" prefWidth="1332.0" styleClass="startPane" xmlns:fx="http://javafx.com/fxml" fx:controller="Prosco.Controller.EventControllerStartView">
+  <children>
+    <BorderPane id="TtleStartPagePane" layoutX="119.0" prefHeight="93.0" prefWidth="1094.0" styleClass="titleStartPagePane">
+      <center>
+        <Label text="Prosco v3">
+          <font>
+            <Font name="Andalus" size="50.0" />
+          </font>
+        </Label>
+      </center>
+      <effect>
+        <DropShadow radius="12.65625" spread="0.19047619047619047" width="27.071428571428573">
+          <color>
+            <Color blue="0.467" green="0.000" red="0.000" fx:id="x3" />
+          </color>
+        </DropShadow>
+      </effect>
+      <stylesheets>
+        <URL value="@../CSS/Style.css" />
+      </stylesheets>
+    </BorderPane>
+    <AnchorPane id="borderChoixEcole" layoutX="161.0" layoutY="204.0" prefHeight="177.0" prefWidth="1011.0">
+      <children>
+        <AnchorPane layoutX="664.0" layoutY="70.0" minHeight="30.0" prefHeight="40.0" prefWidth="234.0" styleClass="borderAjoutEcole">
+          <children>
+            <Button id="" blendMode="SRC_ATOP" contentDisplay="GRAPHIC_ONLY" layoutX="14.0" layoutY="5.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="31.0" styleClass="buttonUpdate">
+              <stylesheets>
+                <URL value="@../CSS/Style.css" />
+              </stylesheets>
+              <textFill>
+                <Color blue="0.706" green="0.800" red="0.000" fx:id="x2" />
+              </textFill>
+            </Button>
+            <Label layoutX="46.0" layoutY="-1.0" prefHeight="21.0" prefWidth="173.9998779296875" text="Mettre à Jour la Base de Donnée">
+              <font>
+                <Font name="Andalus" size="13.0" fx:id="x1" />
+              </font>
+            </Label>
+            <Label font="$x1" layoutX="46.0" layoutY="16.0" prefHeight="21.0" prefWidth="173.9998779296875" text="(Anciens utilisateurs de Prosco)" />
+          </children>
+          <stylesheets>
+            <URL value="@../CSS/Style.css" />
+          </stylesheets>
+        </AnchorPane>
+        <AnchorPane layoutX="506.0" layoutY="70.0" minHeight="30.0" prefHeight="40.0" prefWidth="138.0" styleClass="borderAjoutEcole">
+          <children>
+            <Button id="" contentDisplay="GRAPHIC_ONLY" layoutX="14.0" layoutY="11.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="16.0" styleClass="buttonPlus" textFill="$x2">
+              <stylesheets>
+                <URL value="@../CSS/Style.css" />
+              </stylesheets>
+            </Button>
+            <Label cache="true" cacheHint="QUALITY" font="$x1" layoutX="34.0" layoutY="11.0" prefHeight="21.0" prefWidth="96.0" text="Ajouter une école" />
+          </children>
+          <stylesheets>
+            <URL value="@../CSS/Style.css" />
+          </stylesheets>
+        </AnchorPane>
+        <TextField id="txt" layoutX="213.0" layoutY="79.0" prefWidth="224.0" promptText="Entrez le nom d'une école" />
+        <Button fx:id="buttonCheck1" onAction="#getTxtRechercheEcole" contentDisplay="GRAPHIC_ONLY" layoutX="451.0" layoutY="75.0" minWidth="22.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="31.0" styleClass="buttonCheck" />
+        <Label layoutX="14.0" layoutY="71.0" text="Recherche école">
+          <font>
+            <Font name="Andalus" size="25.0" fx:id="x4" />
+          </font>
+        </Label>
+      
+        
+        <AutoCompleteTextField fx:id="AutoCompleteField" layoutX="213.0" layoutY="79.0" prefWidth="224.0" promptText="Entrez le nom d'une école">     
+        <items>       
+            <FXCollections fx:id="array" fx:factory="observableArrayList" >                      
+            </FXCollections>
+        </items>
+        </AutoCompleteTextField>
+      </children>
+      <effect>
+        <DropShadow color="$x3" />
+      </effect>
+      <stylesheets>
+        <URL value="@../CSS/Style.css" />
+      </stylesheets>
+    </AnchorPane>
+    <AnchorPane id="borderChoixEcole" layoutX="161.0" layoutY="462.0" prefHeight="177.0" prefWidth="1011.0">
+      <children>
+        <AnchorPane layoutX="506.0" layoutY="70.0" minHeight="30.0" prefHeight="40.0" prefWidth="174.0" styleClass="borderAjoutEcole">
+          <children>
+            <Button id="" contentDisplay="GRAPHIC_ONLY" layoutX="14.0" layoutY="11.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="16.0" styleClass="buttonPlus" textFill="#00ccb4">
+              <stylesheets>
+                <URL value="@../CSS/Style.css" />
+              </stylesheets>
+            </Button>
+            <Label cache="true" cacheHint="QUALITY" font="$x1" layoutX="34.0" layoutY="11.0" prefHeight="21.0" prefWidth="138.0" text="Ajouter un photographe" />
+          </children>
+          <stylesheets>
+            <URL value="@../CSS/Style.css" />
+          </stylesheets>
+        </AnchorPane>
+        <TextField focusTraversable="false" layoutX="213.0" layoutY="79.0" prefWidth="224.0" promptText="Entrez le nom d'un photographe..." />
+        <Button id="buttonCheck1" contentDisplay="GRAPHIC_ONLY" layoutX="451.0" layoutY="75.0" minWidth="22.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="31.0" styleClass="buttonCheck" />
+        <Label font="$x4" layoutX="21.0" layoutY="66.0" text="Planning" />
+      </children>
+      <effect>
+        <DropShadow color="$x3" />
+      </effect>
+      <stylesheets>
+        <URL value="@../CSS/Style.css" />
+      </stylesheets>
+    </AnchorPane>
+  </children>
+  <stylesheets>
+    <URL value="@../CSS/Style.css" />
+  </stylesheets>
+</AnchorPane>

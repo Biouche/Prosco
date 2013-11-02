@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_prosco_1_1_class_1_1_connect_b_d" kind="class" prot="public">
+    <compoundname>Prosco::Class::ConnectBD</compoundname>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_prosco_1_1_class_1_1_connect_b_d_1a0788257a066041b2e6f5024b05860651" prot="package" static="no" mutable="no">
+        <type>ResultSet</type>
+        <definition>ResultSet Prosco.Class.ConnectBD.res</definition>
+        <argsstring></argsstring>
+        <name>res</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ConnectBD.java" line="21" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ConnectBD.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prosco_1_1_class_1_1_connect_b_d_1a9441163d98b4b41993130b03b8e43597" prot="package" static="no" mutable="no">
+        <type>Statement</type>
+        <definition>Statement Prosco.Class.ConnectBD.smt</definition>
+        <argsstring></argsstring>
+        <name>smt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ConnectBD.java" line="22" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ConnectBD.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_prosco_1_1_class_1_1_connect_b_d_1a8dc0d9dd43ff0c82d9cc53de5eafde04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Prosco.Class.ConnectBD.ConnectBD</definition>
+        <argsstring>()</argsstring>
+        <name>ConnectBD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ConnectBD.java" line="24" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ConnectBD.java" bodystart="24" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prosco_1_1_class_1_1_connect_b_d_1a971aa6b7a09b9a221f6ec0fb47e69d3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ResultSet</type>
+        <definition>ResultSet Prosco.Class.ConnectBD.setQuery</definition>
+        <argsstring>(String Query)</argsstring>
+        <name>setQuery</name>
+        <param>
+          <type>String</type>
+          <declname>Query</declname>
+        </param>
+        <exceptions> throws SQLException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ConnectBD.java" line="47" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ConnectBD.java" bodystart="47" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="12">
+        <label>ResultSet</label>
+      </node>
+      <node id="11">
+        <label>Statement</label>
+      </node>
+      <node id="10">
+        <label>Prosco.Class.ConnectBD</label>
+        <link refid="class_prosco_1_1_class_1_1_connect_b_d"/>
+        <childnode refid="11" relation="usage">
+          <edgelabel>smt</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>res</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ConnectBD.java" line="19" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Class/ConnectBD.java" bodystart="19" bodyend="54"/>
+    <listofallmembers>
+      <member refid="class_prosco_1_1_class_1_1_connect_b_d_1a8dc0d9dd43ff0c82d9cc53de5eafde04" prot="public" virt="non-virtual"><scope>Prosco::Class::ConnectBD</scope><name>ConnectBD</name></member>
+      <member refid="class_prosco_1_1_class_1_1_connect_b_d_1a0788257a066041b2e6f5024b05860651" prot="package" virt="non-virtual"><scope>Prosco::Class::ConnectBD</scope><name>res</name></member>
+      <member refid="class_prosco_1_1_class_1_1_connect_b_d_1a971aa6b7a09b9a221f6ec0fb47e69d3a" prot="public" virt="non-virtual"><scope>Prosco::Class::ConnectBD</scope><name>setQuery</name></member>
+      <member refid="class_prosco_1_1_class_1_1_connect_b_d_1a9441163d98b4b41993130b03b8e43597" prot="package" virt="non-virtual"><scope>Prosco::Class::ConnectBD</scope><name>smt</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_prosco_1_1_controller_1_1_event_controller_view_info_ecole" kind="class" prot="public">
+    <compoundname>Prosco::Controller::EventControllerViewInfoEcole</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AnchorPane</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Initializable</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_prosco_1_1_controller_1_1_event_controller_view_info_ecole_1a09b2fd3c5664a9eef434358aca15be79" prot="public" static="no" mutable="no">
+        <type>TextField</type>
+        <definition>TextField Prosco.Controller.EventControllerViewInfoEcole.textFieldNomEcole</definition>
+        <argsstring></argsstring>
+        <name>textFieldNomEcole</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Controller/EventControllerViewInfoEcole.java" line="23" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Controller/EventControllerViewInfoEcole.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prosco_1_1_controller_1_1_event_controller_view_info_ecole_1ad6c7a8611ef1f212d8540b3f24982466" prot="public" static="no" mutable="no">
+        <type>TextField</type>
+        <definition>TextField Prosco.Controller.EventControllerViewInfoEcole.textFieldNumEcole</definition>
+        <argsstring></argsstring>
+        <name>textFieldNumEcole</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Controller/EventControllerViewInfoEcole.java" line="25" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Controller/EventControllerViewInfoEcole.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prosco_1_1_controller_1_1_event_controller_view_info_ecole_1a1710c5a302a88e65a37b6aacc0734ec8" prot="public" static="no" mutable="no">
+        <type>Label</type>
+        <definition>Label Prosco.Controller.EventControllerViewInfoEcole.labelNomEcole</definition>
+        <argsstring></argsstring>
+        <name>labelNomEcole</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Controller/EventControllerViewInfoEcole.java" line="27" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Controller/EventControllerViewInfoEcole.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_prosco_1_1_controller_1_1_event_controller_view_info_ecole_1abf1118ab2040d647c003beaa6d62ba0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Prosco.Controller.EventControllerViewInfoEcole.EventControllerViewInfoEcole</definition>
+        <argsstring>()</argsstring>
+        <name>EventControllerViewInfoEcole</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Controller/EventControllerViewInfoEcole.java" line="29" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Controller/EventControllerViewInfoEcole.java" bodystart="29" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prosco_1_1_controller_1_1_event_controller_view_info_ecole_1a4f477e7ec1cad318e6cd6bfc8de750b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Prosco.Controller.EventControllerViewInfoEcole.BackButton</definition>
+        <argsstring>(ActionEvent event)</argsstring>
+        <name>BackButton</name>
+        <param>
+          <type>ActionEvent</type>
+          <declname>event</declname>
+        </param>
+        <exceptions> throws IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Controller/EventControllerViewInfoEcole.java" line="45" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Controller/EventControllerViewInfoEcole.java" bodystart="45" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prosco_1_1_controller_1_1_event_controller_view_info_ecole_1a31d7b1dcb8a4f2c61d02ed979ae8e31d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Prosco.Controller.EventControllerViewInfoEcole.initialize</definition>
+        <argsstring>(URL location, ResourceBundle resources)</argsstring>
+        <name>initialize</name>
+        <param>
+          <type>URL</type>
+          <declname>location</declname>
+        </param>
+        <param>
+          <type>ResourceBundle</type>
+          <declname>resources</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Controller/EventControllerViewInfoEcole.java" line="58" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Controller/EventControllerViewInfoEcole.java" bodystart="58" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="21">
+        <label>AnchorPane</label>
+      </node>
+      <node id="22">
+        <label>Initializable</label>
+      </node>
+      <node id="20">
+        <label>Prosco.Controller.EventControllerViewInfoEcole</label>
+        <link refid="class_prosco_1_1_controller_1_1_event_controller_view_info_ecole"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="26">
+        <label>TextField</label>
+      </node>
+      <node id="27">
+        <label>Label</label>
+      </node>
+      <node id="24">
+        <label>AnchorPane</label>
+      </node>
+      <node id="25">
+        <label>Initializable</label>
+      </node>
+      <node id="23">
+        <label>Prosco.Controller.EventControllerViewInfoEcole</label>
+        <link refid="class_prosco_1_1_controller_1_1_event_controller_view_info_ecole"/>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+        <childnode refid="26" relation="usage">
+          <edgelabel>textFieldNumEcole</edgelabel>
+          <edgelabel>textFieldNomEcole</edgelabel>
+        </childnode>
+        <childnode refid="27" relation="usage">
+          <edgelabel>labelNomEcole</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Controller/EventControllerViewInfoEcole.java" line="20" column="1" bodyfile="C:/Users/bfaliu/Desktop/Programmation/ProscoFX/src/Prosco/Controller/EventControllerViewInfoEcole.java" bodystart="19" bodyend="62"/>
+    <listofallmembers>
+      <member refid="class_prosco_1_1_controller_1_1_event_controller_view_info_ecole_1a4f477e7ec1cad318e6cd6bfc8de750b4" prot="public" virt="non-virtual"><scope>Prosco::Controller::EventControllerViewInfoEcole</scope><name>BackButton</name></member>
+      <member refid="class_prosco_1_1_controller_1_1_event_controller_view_info_ecole_1abf1118ab2040d647c003beaa6d62ba0c" prot="public" virt="non-virtual"><scope>Prosco::Controller::EventControllerViewInfoEcole</scope><name>EventControllerViewInfoEcole</name></member>
+      <member refid="class_prosco_1_1_controller_1_1_event_controller_view_info_ecole_1a31d7b1dcb8a4f2c61d02ed979ae8e31d" prot="public" virt="non-virtual"><scope>Prosco::Controller::EventControllerViewInfoEcole</scope><name>initialize</name></member>
+      <member refid="class_prosco_1_1_controller_1_1_event_controller_view_info_ecole_1a1710c5a302a88e65a37b6aacc0734ec8" prot="public" virt="non-virtual"><scope>Prosco::Controller::EventControllerViewInfoEcole</scope><name>labelNomEcole</name></member>
+      <member refid="class_prosco_1_1_controller_1_1_event_controller_view_info_ecole_1a09b2fd3c5664a9eef434358aca15be79" prot="public" virt="non-virtual"><scope>Prosco::Controller::EventControllerViewInfoEcole</scope><name>textFieldNomEcole</name></member>
+      <member refid="class_prosco_1_1_controller_1_1_event_controller_view_info_ecole_1ad6c7a8611ef1f212d8540b3f24982466" prot="public" virt="non-virtual"><scope>Prosco::Controller::EventControllerViewInfoEcole</scope><name>textFieldNumEcole</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
