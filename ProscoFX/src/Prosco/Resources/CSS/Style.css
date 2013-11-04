@@ -1,5 +1,5 @@
 @CHARSET "ISO-8859-1";
-
+@import url("http://fonts.googleapis.com/css?family=Radley|Montaga");
 /* Pane Styles */
 .startPane
 {
@@ -7,7 +7,10 @@
 	
 }
 
-
+root
+{
+	-fx-font-family: 'Radley', serif;
+}
 
 /* Buttons Styles */
 .buttonCheck

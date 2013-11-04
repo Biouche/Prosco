@@ -26,7 +26,7 @@ public class App extends Application {
 
 		currentStage = new SimpleObjectProperty<Stage>(primaryStage);
 
-		// charger le fichier FXML de départ
+		// charger le fichier FXML de dï¿½part
 		Parent root = FXMLLoader.load(getClass().getResource(
 				"/Prosco/Resources/View/StartView.fxml"));
 

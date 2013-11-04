@@ -10,22 +10,19 @@
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.text.*?>
 
-<fx:root type="javafx.scene.layout.AnchorPane" prefHeight="898.0" prefWidth="1332.0" styleClass="startPane" xmlns:fx="http://javafx.com/fxml">
-  
-  <Button layoutX="365.0" onAction="#BackButton"  layoutY="364.0" text="Retour" />
-  
-  <Label fx:id="labelNomEcole" alignment="CENTER" layoutX="285.0" layoutY="27.0" prefHeight="102.0" prefWidth="762.0" text="llll" textAlignment="CENTER">
+<fx:root type="javafx.scene.layout.AnchorPane" minHeight="381.0" prefHeight="618.0" prefWidth="998.0" styleClass="startPane" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <Button layoutX="365.0" layoutY="364.0" onAction="#BackButton" text="Retour" />
+  <Label fx:id="labelNomEcole" alignment="CENTER" layoutX="118.0" layoutY="14.0" prefHeight="102.0" prefWidth="762.0" text="Infoformations écoles" textAlignment="CENTER">
     <font>
-      <Font size="36.0" />
+      <Font name="System Bold" size="36.0" />
     </font>
   </Label>
-  
-  <TextField fx:id="textFieldNomEcole" layoutX="263.0" layoutY="235.0" />
-  
+  <TextField fx:id="textFieldNomEcole" layoutX="266.0" layoutY="235.0" />
   <TextField fx:id="textFieldNumEcole" disable="true" layoutX="263.0" layoutY="277.0" opacity="0.8" />
-  
+  <Label layoutX="73.0" layoutY="174.0" text="Numéro de l'école" />
+  <HBox layoutX="566.0" layoutY="399.0" prefHeight="100.0" prefWidth="200.0" />
   <stylesheets>
     <URL value="@../CSS/Style.css" />
   </stylesheets>
-  <Label layoutX="145.0" layoutY="280.0" text="Numéro de l'école" />
+  
 </fx:root>

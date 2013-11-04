@@ -3,7 +3,7 @@
  * \author    bfaliu
  * \version   1.0
  * \date       29/09/2013
- * \brief      Classe qui permet de créer la connexion aux bases de données
+ * \brief      Classe qui permet de crï¿½er la connexion aux bases de donnï¿½es
  *
  */
 
@@ -29,15 +29,16 @@ public class ConnectBD {
 					.forName("org.apache.derby.jdbc.EmbeddedDriver");
 			DriverManager.registerDriver((Driver) driverClass.newInstance());
 
-			// Connexion à la base tp_jdbc, dans le répertoire local du projet
+			// Connexion ï¿½ la base tp_jdbc, dans le rï¿½pertoire local du projet
 			Connection con = DriverManager.getConnection("jdbc:derby:BD/BD1");
 
-			// Utilisation de la connexion de façon classique
+			// Utilisation de la connexion de faï¿½on classique
 			smt = con.createStatement();
+			con.createStatement(ResultSet., resultSetConcurrency)
 		}
 
 		catch (Exception e) {
-			System.out.println("Problème de connexion à la BD : "
+			System.out.println("Problï¿½me de connexion ï¿½ la BD : "
 					+ e.getMessage());
 			e.printStackTrace();
 		}
@@ -45,7 +46,7 @@ public class ConnectBD {
 	} // ConectBD
 
 	public ResultSet setQuery(String Query) throws SQLException {
-		// Récupération des informations voulues
+		// Rï¿½cupï¿½ration des informations voulues
 		res = smt.executeQuery(Query);
 		return res;
 	}

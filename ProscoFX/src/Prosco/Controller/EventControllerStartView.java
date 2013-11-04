@@ -4,7 +4,9 @@ import java.io.IOException;
 import java.net.URL;
 import java.sql.ResultSet;
 import java.util.ResourceBundle;
+
 import com.mytdev.javafx.scene.control.AutoCompleteTextField;
+
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -16,6 +18,7 @@ import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import Prosco.App.App;
+import Prosco.Class.ClassBDClasses;
 import Prosco.Class.ClassBDEcole;
 import Prosco.Class.ConnectBD;
 
@@ -89,9 +92,11 @@ public class EventControllerStartView extends AnchorPane implements
 			
 			//TESTS
 			
-			ClassBDEcole ecole = new ClassBDEcole();
-			//ecole.InsertNewEcole("TEST3", "OK", "OK", 13090, "OK", "OK", "OK", 5555, 5555);
-			ecole.UpdateEcole(5, "TEST3", "OK", "OK", 2000, "OK", "OK", "OK", 5555, 5555);
+			/*ClassBDEcole ecole = new ClassBDEcole();
+			ecole.InsertNewEcole("TEST3", "OK", "OK", 13090, "OK", "OK", "OK", 5555, 5555);
+			ecole.UpdateEcole(5, "TEST3", "OK", "OK", 2000, "OK", "OK", "OK", 5555, 5555);*/
+			
+			ClassBDClasses classes = new ClassBDClasses(5);
 		} catch (Exception e) {
 			System.out.println("Probl�me de connexion � la BD : "
 					+ e.getMessage());
