@@ -5,6 +5,7 @@
 <?import javafx.collections.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.paint.*?>
@@ -12,7 +13,7 @@
 
 <fx:root type="javafx.scene.layout.AnchorPane" minHeight="381.0" prefHeight="618.0" prefWidth="998.0" styleClass="startPane" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
   <Button layoutX="365.0" layoutY="364.0" onAction="#BackButton" text="Retour" />
-  <Label fx:id="labelNomEcole" alignment="CENTER" layoutX="118.0" layoutY="14.0" prefHeight="102.0" prefWidth="762.0" text="Infoformations écoles" textAlignment="CENTER">
+  <Label fx:id="labelNomEcole" alignment="CENTER" layoutX="118.0" layoutY="14.0" prefHeight="102.0" prefWidth="762.0" text="" textAlignment="CENTER">
     <font>
       <Font name="System Bold" size="36.0" />
     </font>
@@ -24,5 +25,5 @@
   <stylesheets>
     <URL value="@../CSS/Style.css" />
   </stylesheets>
-  
+  <ImageView fx:id="imgEcole" fitHeight="150.0" fitWidth="200.0" layoutX="43.0" layoutY="289.0" pickOnBounds="true" preserveRatio="true" />
 </fx:root>

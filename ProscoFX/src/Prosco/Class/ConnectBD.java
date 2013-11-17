@@ -34,7 +34,7 @@ public class ConnectBD {
 
 			// Utilisation de la connexion de fa�on classique
 			smt = con.createStatement();
-			con.createStatement(ResultSet., resultSetConcurrency)
+			
 		}
 
 		catch (Exception e) {

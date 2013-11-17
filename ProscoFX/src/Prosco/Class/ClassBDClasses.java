@@ -15,7 +15,7 @@ public class ClassBDClasses {
 	int m_nbMaternelles;
 	int m_nbColleges;
 	int m_nbLycee;
-
+	
 		 
 	 
 	public ClassBDClasses(int ECOLES_idEcole) {
@@ -27,16 +27,31 @@ public class ClassBDClasses {
 			int idClasse;
 			//VECTOR AVEC ID qui pointe sur vector avec info
 			ResultSet res = BD.smt.executeQuery("SELECT IDCLASSES FROM APP.CLASSES WHERE ECOLES_IDECOLE =" + ECOLES_idEcole);
+			ResultSetMetaData rsmd = res.getMetaData();
 			
-			while (res.next())
+			//Récupérer le nombre de colonnes
+			/*res.last();
+			int nbColonnes = res.getRow();
+			
+			res.beforeFirst();
+			for (int i = 0; i < nbColonnes;++i)
+			{
+				
+				String columnName = rsmd.getColumnName(1);
+				
+			}*/
+			/*while (res.next())
 			{
 				idClasse = res.getInt("IDCLASSES");
 				vect_idClasses.add(idClasse);
-				res.getInt("NB_CRECHES");
+				res.getInt("ECOLES_IDECOLE");
 				res.getInt("NB_MATERNELLES");
+				res.getInt("NB_CRECHES");
+				
 				res.getInt("NB_COLLEGES");
-				res.getInt("NB_LYCEES");	
-			}
+				res.getInt("NB_LYCEES");
+				
+			}*/
 			 
 			
 		} catch (Exception e) {

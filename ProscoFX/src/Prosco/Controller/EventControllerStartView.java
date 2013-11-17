@@ -57,7 +57,7 @@ public class EventControllerStartView extends AnchorPane implements
 
 		root.labelNomEcole.setText(AutoCompleteField.getText());
 		root.textFieldNumEcole.setText(Ecole.getNomEcole());
-
+		root.imgEcole.setImage(Ecole.getImgEcole());
 		Scene cc = AutoCompleteField.getScene();
 		cc.setRoot(root);
 

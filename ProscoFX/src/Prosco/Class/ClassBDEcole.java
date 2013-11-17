@@ -12,10 +12,12 @@ package Prosco.Class;
 
 import java.io.IOException;
 import java.sql.ResultSet;
+
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 public class ClassBDEcole {
@@ -31,6 +33,7 @@ public class ClassBDEcole {
 	String m_nomResponsable;
 	int m_numTelephone;
 	int m_numFax;
+	Image m_imgEcole;
 
 	/**
 	 * \\brief Constructeur de la classe BDEcoles \\details R�cup�re toutes les
@@ -67,7 +70,8 @@ public class ClassBDEcole {
 			this.m_codePostal = res.getInt("CODE_POSTAL");
 			this.m_Ville = res.getString("VILLE");
 			this.m_nomDirecteur = res.getString("NOM_DIRECTEUR");
-			this.m_nomResponsable = res.getString("NOM_REPSONSABLE");
+			this.m_nomResponsable = res.getString("NOM_RESPONSABLE");
+			this.m_imgEcole = new Image(res.getString("IMG_ECOLE"));
 		} catch (Exception e) {
 			System.out.println("Probl�me de connexion � la BD : "
 					+ e.getMessage());
@@ -155,14 +159,22 @@ public class ClassBDEcole {
 	public void setNumFax(int newNumFax) {
 		this.m_numFax = newNumFax;
 	}
+	
+	public Image getImgEcole() {
+		return this.m_imgEcole;
+	}
+
+	public void setImgEcole(Image newImgEcole) {
+		this.m_imgEcole = newImgEcole;
+	}
 
 	public void InsertNewEcole(String NOMECOLE, String adresse1,
 			String adresse2, int codePostal, String Ville, String nomDirecteur,
-			String nomResponsable, int numTelephone, int numFax) {
+			String nomResponsable, int numTelephone, int numFax,String imgEcole) {
 		try {
 			ConnectBD BD = new ConnectBD();
 			
-			String query = "INSERT INTO APP.ECOLES(NOMECOLE,ADRESSE1,ADRESSE2,CODE_POSTAL,VILLE,NOM_DIRECTEUR,NOM_RESPONSABLE,NUM_TELEPHONE,NUM_FAX)"
+			String query = "INSERT INTO APP.ECOLES(NOMECOLE,ADRESSE1,ADRESSE2,CODE_POSTAL,VILLE,NOM_DIRECTEUR,NOM_RESPONSABLE,NUM_TELEPHONE,NUM_FAX,IMG_ECOLE)"
 					+ " VALUES ("
 					+ "'"+"dd"
 					+"','"+adresse1
@@ -173,7 +185,8 @@ public class ClassBDEcole {
 					+"','"+nomResponsable
 					+"',"+numTelephone
 					+","+numFax
-					+")";
+					+",'"+imgEcole
+					+"')";
 			
 			BD.smt.executeUpdate(query);
 			
@@ -186,7 +199,7 @@ public class ClassBDEcole {
 
 	public void UpdateEcole(int idEcole,String NOMECOLE, String adresse1,
 			String adresse2, int codePostal, String Ville, String nomDirecteur,
-			String nomResponsable, int numTelephone, int numFax) {
+			String nomResponsable, int numTelephone, int numFax, String imgEcole) {
 		
 		try {
 			ConnectBD BD = new ConnectBD();
@@ -200,6 +213,7 @@ public class ClassBDEcole {
 																"',NOM_RESPONSABLE = '" + nomResponsable +
 																"',NUM_TELEPHONE = " + numTelephone +
 																",NUM_FAX = " + numFax +
+																",IMG_ECOLE = '" + imgEcole + "'" +
 														  "WHERE IDECOLE = " + idEcole;
 			
 			BD.smt.executeUpdate(query);

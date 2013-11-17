@@ -5,7 +5,6 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 import Prosco.App.App;
-
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -13,6 +12,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
@@ -25,11 +25,13 @@ public class EventControllerViewInfoEcole extends AnchorPane implements
 	public TextField textFieldNumEcole;
 	@FXML
 	public Label labelNomEcole;
-
+	@FXML
+	public ImageView imgEcole;
+	
 	public EventControllerViewInfoEcole() {
 
 		// Constructeur de la classe EventControllerViewInfoEcole pour acceder
-		// aux éléments du FXML
+		// aux ï¿½lï¿½ments du FXML
 		FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource(
 				"/Prosco/Resources/View/ViewInfoEcole.fxml"));
 		fxmlLoader.setRoot(this);
@@ -44,11 +46,11 @@ public class EventControllerViewInfoEcole extends AnchorPane implements
 	@FXML
 	public void BackButton(ActionEvent event) throws IOException {
 
-		// Fermer la fenêtre courante
+		// Fermer la fenï¿½tre courante
 		Stage stage1 = App.getCurrentStage();
 		stage1.hide();
 
-		// Charger et afficher la fenetre précédente
+		// Charger et afficher la fenetre prï¿½cï¿½dente
 		EventControllerStartView root = new EventControllerStartView();
 		root.chargerVue();
 
@@ -56,7 +58,8 @@ public class EventControllerViewInfoEcole extends AnchorPane implements
 
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
-
+		
+		
 	}
 
 }
